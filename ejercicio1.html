@@ -7,13 +7,47 @@
   <title>Document</title>
 </head>
 <body>
+  <style>
+    .bg-body-tertiary {
+      padding: 16px 40px; 
+      width: 100%;     
+    }
+    .nav-item a{
+      color: rgb(105, 105, 105);
+    }
+    .container-fluid{
+      color: black;
+    }
+  </style>
+  
   <header>
-    <nav>
+    <nav class="navbar bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid" >
 
+        <span class="navbar-brand mb-0 h1" >Star bootstrap</span>
+  
+
+        <ul class="nav justify-content-end ms-auto">
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Contac</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </header>
+  
+  
 
-  <section>
+  <section >
     <section></section>
     <section>
       <article></article>
